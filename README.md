@@ -2,6 +2,9 @@ CURRENT FINANCIAL CALCULATIONS INCLUDED
 ===============================
 | Product | Equation Used |
 | -- | -- |
+| CAPM Expected Return | Formula: E(r) = rf + β × Market Risk Premium |
+| Standard Deviation of Returns | Formula: σ = √[Σ(ri - r̄)² / (n-1)] |
+| Annual Holding Period Yield | Formula: HPY = ((EV+c)/BV)^(1/n) - 1 |
 | Credit Multiplier |   Formula: 1 / reserve_ratio |
 | Simple Interest | Formula: I = PV * r * n |
 | Future Value of single payment (Simple Interest) | Formula: FV = PV(1 + r*n) |
@@ -37,3 +40,6 @@ VARIABLE DEFINITIONS
 |F | Face value for bond |
 |Net Income | Net income for capitalization calculations |
 |V | Value for capitalization calculations |
+|BV, EV, c | Beginning value, ending value and cash flows for HPY |
+|Returns | Series of returns for standard deviation |
+|rf, β, Market Risk Premium | CAPM inputs |
